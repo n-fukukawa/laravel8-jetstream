@@ -19,6 +19,5 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 #laravel installer 
  RUN composer global require "laravel/installer"
-#jetstream
- RUN composer require "laravel/jetstream"
+
 
